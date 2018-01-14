@@ -6,14 +6,16 @@ Author: Jie Tao
 Time: 2018-01-12
 """
 from project import FKCalcu as FKC
-import os
+import codecs
 
 
 def main():
-    with open('txtbook.txt',"r") as gradefile:          # read the file into string
+    filename = "sciencekids.txt"
+    with codecs.open('testfiles/'+filename,encoding="utf-8", mode="r") as gradefile:          # read the file into string
         text = gradefile.read()
     aFKCalcu = FKC.FKCalcu(text)                        # new calculation instance
     aFKCalcu.calFKGrade()                               # calculation
+    print(gradefile.name)
     print("total words num:"+str(aFKCalcu.totalWords),flush=True)               # export words num by printing
     print("total sentence num:"+str(aFKCalcu.totalSentence))                    # export sentence num by printing
     print("total syllable num:"+str(aFKCalcu.totalSyllables))                   # export syllable num by printing

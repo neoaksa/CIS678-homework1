@@ -1,0 +1,71 @@
+book-1864
+total words num:1653
+total sentence num:48
+total syllable num:2519
+avgerage words:34.44
+avergae syllabes:1.52
+Grade:42.96
+
+testfiles/book-1911.txt
+total words num:3976
+total sentence num:133
+total syllable num:5248
+avgerage words:29.89
+avergae syllabes:1.32
+Grade:64.83
+
+testfiles/book-2007.txt
+total words num:2032
+total sentence num:167
+total syllable num:2665
+avgerage words:12.17
+avergae syllabes:1.31
+Grade:83.53
+
+testfiles/book-bible.txt
+total words num:1541
+total sentence num:55
+total syllable num:1869
+avgerage words:28.02
+avergae syllabes:1.21
+Grade:75.79
+
+testfiles/bbc-online.txt
+total words num:325
+total sentence num:14
+total syllable num:492
+avgerage words:23.21
+avergae syllabes:1.51
+Grade:55.2
+
+testfiles/scientificamerican.txt
+total words num:878
+total sentence num:41
+total syllable num:1471
+avgerage words:21.41
+avergae syllabes:1.68
+Grade:43.36
+
+testfiles/blog-private.txt
+total words num:468
+total sentence num:31
+total syllable num:645
+avgerage words:15.1
+avergae syllabes:1.38
+Grade:74.92
+
+testfiles/twitter.txt
+total words num:220
+total sentence num:19
+total syllable num:339
+avgerage words:11.58
+avergae syllabes:1.54
+Grade:64.72
+
+testfiles/sciencekids.txt
+total words num:1511
+total sentence num:104
+total syllable num:2191
+avgerage words:14.53
+avergae syllabes:1.45
+Grade:69.42
